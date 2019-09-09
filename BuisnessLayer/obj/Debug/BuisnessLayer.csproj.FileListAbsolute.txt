@@ -1,0 +1,2 @@
+C:\Users\VLAD\source\repos\UnitOfWorkFarm\BuisnessLayer\obj\Debug\BuisnessLayer.csprojAssemblyReference.cache
+C:\Users\VLAD\source\repos\UnitOfWorkFarm\BuisnessLayer\obj\Debug\BuisnessLayer.csproj.CoreCompileInputs.cache

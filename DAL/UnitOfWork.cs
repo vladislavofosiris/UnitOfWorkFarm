@@ -11,14 +11,14 @@ namespace DAL
   public  class UnitOfWork
     {
 
-        private FarmStorage _farmStorage;
+        private FarmContext _farmContext;
 
         private IFarmRepository _farmRepository;
 
 
         public UnitOfWork()
         {
-            _farmStorage = new FarmStorage();
+            _farmContext = new FarmContext();
         }
 
 
@@ -28,11 +28,17 @@ namespace DAL
             {
                 if (_farmRepository == null)
                 {
-                    _farmRepository = new FarmRepository(_farmStorage);
+                    _farmRepository = new FarmRepository(_farmContext);
                 }
 
                 return _farmRepository;
             }
         }
+
+        public void Save()
+        {
+            _farmContext.SaveChanges();
+        }
+
     }
 }

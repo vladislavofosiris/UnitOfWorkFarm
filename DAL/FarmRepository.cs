@@ -19,36 +19,39 @@ namespace DAL
     public class FarmRepository : IFarmRepository
     {
 
-        private FarmStorage _farmStorage;
+        private FarmContext _db;
 
-        public FarmRepository(FarmStorage farmStorage)
+        public FarmRepository(FarmContext context)
         {
-            _farmStorage = farmStorage;
+            _db = context;
         }
 
         public void Add(FarmEntity farmEntity)
         {
 
-            _farmStorage.AddFarm(farmEntity);
+            _db.FarmEntities.Add(farmEntity);
 
         }
 
 
         public void Delete(FarmEntity farmEntity)
         {
-            _farmStorage.DeleteFarm(farmEntity.Id);
-
+            _db.FarmEntities.Remove(farmEntity);
         }
 
 
         public FarmEntity GetById(int id)
         {
-            return _farmStorage.GetFarmById(id);
+            return _db.FarmEntities.Find(id);
         }
 
         public IEnumerable<FarmEntity> GetAll()
         {
-            return _farmStorage.GetAllFarms();
+            return _db.FarmEntities;
+        }
+        public void Update(FarmEntity farmEntity)
+        {
+            _db.FarmEntities.Attach(GetById(farmEntity.Id));
         }
 
 

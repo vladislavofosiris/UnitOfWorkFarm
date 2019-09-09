@@ -13,12 +13,13 @@ namespace UnitOfWorkFarm.Controllers
     {
 
         private IFarmRepository _farmRepository;
+        private UnitOfWork _unitOfWork;
 
-        public FarmController()
+        public  FarmController()
         {
-            var unitOfWork = new UnitOfWork();
+          _unitOfWork = new UnitOfWork();
 
-            _farmRepository = unitOfWork.FarmRepository;
+            _farmRepository = _unitOfWork.FarmRepository;
         }
 
         public IEnumerable<FarmEntity> Get()
@@ -29,6 +30,7 @@ namespace UnitOfWorkFarm.Controllers
         public void Post([FromBody] FarmEntity farmEntity)
         {
             _farmRepository.Add(farmEntity);
+            _unitOfWork.Save();
         }
     }
 }
