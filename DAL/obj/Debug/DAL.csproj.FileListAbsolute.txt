@@ -4,3 +4,9 @@ C:\Users\VLAD\source\repos\UnitOfWorkFarm\DAL\obj\Debug\DAL.csprojAssemblyRefere
 C:\Users\VLAD\source\repos\UnitOfWorkFarm\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\VLAD\source\repos\UnitOfWorkFarm\DAL\obj\Debug\DAL.dll
 C:\Users\VLAD\source\repos\UnitOfWorkFarm\DAL\obj\Debug\DAL.pdb
+C:\Users\VLAD\source\repos\UnitOfWorkFarm\DAL\bin\Debug\DAL.dll.config
+C:\Users\VLAD\source\repos\UnitOfWorkFarm\DAL\bin\Debug\EntityFramework.dll
+C:\Users\VLAD\source\repos\UnitOfWorkFarm\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\VLAD\source\repos\UnitOfWorkFarm\DAL\bin\Debug\EntityFramework.xml
+C:\Users\VLAD\source\repos\UnitOfWorkFarm\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\VLAD\source\repos\UnitOfWorkFarm\DAL\obj\Debug\DAL.csproj.CopyComplete

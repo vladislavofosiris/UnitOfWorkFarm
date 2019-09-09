@@ -88,3 +88,6 @@ C:\Users\VLAD\source\repos\UnitOfWorkFarm\UnitOfWorkFarm\obj\Debug\UnitOfWorkFar
 C:\Users\VLAD\source\repos\UnitOfWorkFarm\UnitOfWorkFarm\obj\Debug\UnitOfWorkFarm.csproj.CopyComplete
 C:\Users\VLAD\source\repos\UnitOfWorkFarm\UnitOfWorkFarm\obj\Debug\UnitOfWorkFarm.dll
 C:\Users\VLAD\source\repos\UnitOfWorkFarm\UnitOfWorkFarm\obj\Debug\UnitOfWorkFarm.pdb
+C:\Users\VLAD\source\repos\UnitOfWorkFarm\UnitOfWorkFarm\bin\EntityFramework.dll
+C:\Users\VLAD\source\repos\UnitOfWorkFarm\UnitOfWorkFarm\bin\DAL.dll.config
+C:\Users\VLAD\source\repos\UnitOfWorkFarm\UnitOfWorkFarm\bin\EntityFramework.xml
